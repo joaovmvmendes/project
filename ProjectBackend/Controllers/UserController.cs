@@ -20,7 +20,7 @@ namespace ProjectBackend.Controllers
             _userRegistrationService = userRegistrationService; // Inicializando o serviço de registro
         }
 
-        // Endpoint para login (já existente)
+        // Endpoint para login
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
         {

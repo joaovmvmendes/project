@@ -5,7 +5,7 @@ namespace ProjectBackend.Data
 {
     public class AppDbContext : DbContext
     {
-        // Aqui é onde você define a DbSet para a tabela 'TaskItems'
+        // Define a DbSet para a tabela 'TaskItems'
         public DbSet<TaskItem> TaskItems { get; set; }
 
         // Para definir a tabela 'Users'
